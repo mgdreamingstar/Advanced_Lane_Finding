@@ -4,7 +4,8 @@ import matplotlib.pyplot as plt
 import matplotlib.image as mpimg
 import pickle
 %matplotlib inline
-
+import os
+os.chdir('D:\Github\Advanced_Lane_Finding')
 # Read in an image
 image = mpimg.imread('signs_vehicles_xygrad.jpg')
 
